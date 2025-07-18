@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Precious | Home</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Precious Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Header -->
   <header>
-    <h1>Welcome to Precious' Website</h1>
-    <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h>welcome to my World!</h2>
-    <p>I'm precious phillimon. young but intelligent I can develop your website and your app on affordable price just try me</p>
-  </main>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>We Are <span>Creative Designers</span></h1>
+      <p>We build modern, responsive websites that stand out.</p>
+    </div>
+    <div class="hero-img">
+      <img src="images/hero.jpg" alt="Creative Work">
+    </div>
+  </section>
 
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>What We Offer</h2>
+    <div class="services-grid">
+      <div class="service-box">
+        <h3>Web Design</h3>
+        <p>Clean, modern, and user-focused designs.</p>
+      </div>
+      <div class="service-box">
+        <h3>UI/UX</h3>
+        <p>Interactive, mobile-friendly interfaces.</p>
+      </div>
+      <div class="service-box">
+        <h3>Branding</h3>
+        <p>Visual identity and brand consistency.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We’re passionate about transforming ideas into digital products that users love.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Let's Work Together</h2>
+    <p>Email: <a href="mailto:preciousdesigns@example.com">preciousdesigns@example.com</a></p>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Precious. All rights reserved.</p>
+    <p>&copy; 2025 Precious Portfolio. All rights reserved.</p>
   </footer>
+
 </body>
-</html>
+    </html>
