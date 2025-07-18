@@ -1,89 +1,129 @@
-body {
-  font-family: sans-serif;
+
+* {
   margin: 0;
   padding: 0;
-  background: #f0f0f0;
-  color: #333;
+  box-sizing: border-box;
 }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+a {
+  color: #00f3e0;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
 
 header {
-  background: #0077cc;
-  color: white;
-  padding: 40px;
-  text-align: center;
+  background: #111;
+  padding: 20px 0;
 }
-
-main {
-  padding: 20px;
-}
-
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-.gallery {
+header .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+}
+nav ul {
+  display: flex;
   gap: 20px;
-  margin-top: 20px;
 }
-.gallery img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+nav ul li {
+  list-style: none;
 }
-.gallery img:hover {
-  transform: scale(1.05);
+nav ul li a {
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
-/* Fade-in effect for sections */
-main, header, footer {
-  animation: fadeIn 1.2s ease forwards;
-  opacity: 0;
+nav ul li a:hover {
+  color: #00f3e0;
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+}
+.hero-content {
+  flex: 1;
+}
+.hero-content h1 {
+  font-size: 3rem;
+}
+.hero-content span {
+  color: #00f3e0;
+}
+.hero-img {
+  flex: 1;
+  text-align: right;
+}
+.hero-img img {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00f3e0;
 }
 
-/* Zoom hover on gallery images */
-.gallery img {
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+/* Services */
+.services {
+  padding: 50px 20px;
+  background: #151515;
+  text-align: center;
 }
-.gallery img:hover {
-  transform: scale(1.05) rotate(1deg);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.service-box {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 230, 0.1);
+}
+.service-box h3 {
+  color: #00f3e0;
 }
 
-/* Smooth button hover (if any) */
-button {
-  transition: background-color 0.3s ease, transform 0.2s;
+/* About */
+.about {
+  padding: 50px 20px;
+  background: #1a1a1a;
+  text-align: center;
 }
-button:hover {
-  background-color: #005fa3;
-  transform: scale(1.05);
+.about p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.1rem;
 }
-/* 🔁 Responsive Design for Small Screens */ @media 
-(max-width: 600px) {
-  body { padding: 15px;
-  }
-  h1 { font-size: 22px;
-  }
-  nav.menu a { display: block; margin: 10px 0; 
-    font-size: 16px;
-  }
-  .gallery { flex-direction: column; align-items: 
-    center;
-  }
-  .gallery img { width: 90%; height: auto;
-  }
-  main h2 { font-size: 20px;
-  }
+
+/* Contact */
+.contact {
+  padding: 50px 20px;
+  background: #101010;
+  text-align: center;
+}
+.contact a {
+  color: #00f3e0;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
 }
