@@ -1,68 +1,477 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RealVisual Graphix</title>
-  <link rel="stylesheet" href="style.css" />
+    <title>im Event - Responsive HTML5 Template</title>
+    <meta charset="utf-8">
+	<meta name="description" content="Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us at jakjim@gmail.com.">
+	<meta name="author" content="jThemes Studio">
+	<meta name="copyright" content="jThemes Studio">
+	<meta name="generator" content="Documenter v2 http://rxa.li/documenter">
+	<meta name="date" content="2014-07-07T00:00:00+00:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	<script src="js/jquery.1.6.4.js"></script>
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#374146;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+        h1,h2,h3,h4,h5,h6 {color:#0d1d31;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo-imevent.png);}
+		a{color:#dc143c;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#f5f5f5;color:#222222;}
+		#documenter_sidebar ol{border-top:1px solid #435469;}
+		#documenter_sidebar ol a{border-top:1px solid #f5f5f5;border-bottom:1px solid #c5c7c9;color:#374146;}
+		#documenter_sidebar ol a:hover{background:#435469;color:#ffffff;border-top:1px solid #435469;}
+		#documenter_sidebar ol a.current{background:#0d1d31;color:#ffffff;border-top:1px solid #0d1d31;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
 </head>
-<body>  <!-- Header -->  <header>
-    <div class="container">
-      <img src="images/logo.png" alt="Logo" class="logo">
-      <nav>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#files_structure">Files Structure</a></li>
+			<li><a href="#html_structure">HTML Structure</a></li>
+			<li><a href="#css_structure">CSS Structure</a></li>
+			<li><a href="#javascript">Javascript</a></li>
+			<li><a href="#fonts">Fonts</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#logo">Logo</a></li>
+			<li><a href="#sliders">Sliders</a></li>
+			<li><a href="#main_slider">Main Slider</a></li>
+			<li><a href="#schedule">Schedule</a></li>
+			<li><a href="#speakers">Speackers</a></li>
+			<li><a href="#price">Price</a></li>
+			<li><a href="#lightbox">Lightbox</a></li>
+			<li><a href="#google-map">Google Map</a></li>
+			<li><a href="#php_scripts">PHP Scripts</a></li>
+			<li><a href="#social_media_icons">Social Media - Icons</a></li>
+			<li><a href="#theme_config">Theme Config</a></li>
+            <li><a href="#countdown">Countdown</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#video_bg">Video Background</a></li>
+            <li><a href="#donation_button">Donation button</a></li>
+            <li><a href="#source_credits">Source & Credits</a></li>
+		</ol>
+		<div id="documenter_copyright">
+            Copyright jThemes Studio 2015<br>
+		    made with the <a href="http://rxa.li/documenter">Documenter v2</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+
+    <!-- -->
+
+	<section id="documenter_cover">
+        <h1>im Event</h1>
+        <h2>Responsive HTML5 Template</h2>
+        <hr>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+            <li>Created: 2014-07-07</li>
+            <li>latest Update: 2015-07-27</li>
+            <li>By: jThemes Studio</li>
+            <li><a href=""></a></li>
+            <li>Email: <a href="mailto:jakjim@gmail.com">jakjim@gmail.com</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>  <!-- Hero -->  <section id="home" class="hero">
-    <div class="content">
-      <h1>Creative Design for Modern Brands</h1>
-      <p>We turn ideas into digital reality. Unique designs. Bold strategies. Tailored branding.</p>
-      <a href="#contact" class="btn">Let’s Talk</a>
-    </div>
-  </section>  <!-- Services -->  <section id="services" class="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="service-boxes">
-        <div class="service">
-          <h3>Graphic Design</h3>
-          <p>Logos, posters, flyers & branding that visually inspire and attract.</p>
+        <p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us.</p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="files_structure">
+        <h3>Files Structure</h3>
+        <hr class="notop">
+        <pre>
+
+            - assets/css     (Template CSS)
+            - assets/ico     (Favicon and apple touch icon)
+            - assets/img     (All Images)
+            - assets/js      (Template JS)
+            - assets/php     (Registration/Contact Form php files)
+            - assets/plugins (All external libs. We keep all of them in this folder to make updates easily.)
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="html_structure">
+        <h3>HTML Structure</h3>
+        <hr class="notop">
+        <p>The template is based on <strong>Bootstrap </strong>Framework - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br>
+            The default Bootstrap grid system utilizes <strong>12 columns</strong>, making for a <strong>1170px </strong>wide depending on your viewport.<br>
+            Below 480px viewports, the columns become fluid and stack vertically.
+        </p>
+        <p>Create a .row and add the appropriate number of .col-sm-* columns.</p>
+        <h4>HTML Markup</h4>
+        <pre class="brush: html">
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-sm-12&quot;&gt;
+                Level 1 column
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-sm-6&quot;&gt;Level 2&lt;/div&gt;
+                    &lt;div class=&quot;col-sm-6&quot;&gt;Level 2&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        </pre>
+        <p>If you need more information, please visit this site: <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="css_structure">
+        <h3>CSS Structure</h3>
+        <hr class="notop">
+        <p>The organization of the CSS is one of our priorities.<br>
+            These are the CSS file we&#39;re using in the template:
+        </p>
+        <pre>
+
+        - assets
+            - css
+                - theme.css      - (Main CSS file / Light Version)
+                - theme-dark.css - (Dark Version)
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="javascript">
+        <h3>Javascript</h3>
+        <hr class="notop">
+        <p><strong>jQuery </strong>- is a Javascript library that greatly reduces the amount of code that you must write.<br>
+            For more information, please visit <a href="http://www.jquery.com/">http://www.jquery.com/</a></p>
+        <p>All the JavaScript libraries and files are included at the bottom of every HTML page like this:</p>
+        <pre class="brush: html">
+            <script src="assets/plugins/modernizr.custom.js"></script>
+        </pre>
+        <p>The initializations and parameters (sliders, effects, etc.) are contained in <strong>assets/js/theme.js</strong></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="fonts">
+        <h3>Fonts</h3>
+        <hr class="notop">
+        <p>To change the embedded font, please take a look in the head part of assets/css/theme.css:</p>
+        <pre>
+
+            @import url('http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900');
+        </pre>
+        <p>To change the font, first go to http://www.google.com/webfonts choose a font and add the generated code to the top of theme.css.</p>
+        <p>Then edit font-family in </p>
+        <pre>
+
+            body {
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+                line-height: 1.33;
+                background: #fbfbfb;
+                color: #6d7a83;
+
+                -webkit-font-kerning: auto;
+                -webkit-font-smoothing: antialiased;
+                -webkit-backface-visibility: visible !important;
+                position:relative;
+            }
+        </pre>
+        <p>and</p>
+        <pre>
+
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: normal;
+                color: #141f23;
+            }
+        </pre>
+        <p>and</p>
+        <pre>
+
+            .btn-theme {
+                color: #ffffff;
+                background-color: #dc143c;
+                border-color: #dc143c;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1;
+                padding: 15px 35px;
+            }
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="icons">
+        <h3>Icons</h3>
+        <hr class="notop">
+        <p><strong>Font Awesome</strong> is a @font-face iconset that you can change size and color of the icons usingCSS.</p>
+        <p>If you need more information, please visit this site: <a href="http://fortawesome.github.com/Font-Awesome/">http://fortawesome.github.com/Font-Awesome/</a></p>
+        <p>&nbsp;</p>
+        <h4>HTML Markup:</h4>
+        <pre class="brush: html">
+        &lt;i class=&quot;fa-edit&quot;&gt;&lt;/i&gt;
+        &lt;i class=&quot;fa-search&quot;&gt;&lt;/i&gt;
+        ...
+        </pre>
+        <p>&nbsp;</p>
+        <p>By default social media icons goes in hexagon and you can change it to circle if you need.</p>
+
+        <h6><strong>Social icons line in hexagon:</strong></h6>
+        <pre class="brush: html">
+
+            <ul class="social-line list-inline">
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#" class="skype"><i class="fa fa-skype"></i></a></li>
+            </ul>
+        </pre>
+
+        <h6><strong>Social icons line without hexagon:</strong></h6>
+        <pre class="brush: html">
+
+            <ul class="social-line social-wohex list-inline">
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#" class="skype"><i class="fa fa-skype"></i></a></li>
+            </ul>
+        </pre>
+
+        <h6><strong>Social icons line in circle:</strong></h6>
+        <pre class="brush: html">
+
+            <ul class="social-line social-circle list-inline">
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#" class="skype"><i class="fa fa-skype"></i></a></li>
+            </ul>
+        </pre>
+        <p>&nbsp;</p>
+        <p>Secton title icon also goes in hexagon by default and you can change it to circle or without hexagon if you need.<br/>
+            Change the class 'rhex' for 'fa-stack-2x' to 'wohex' or 'crcle'. See the code below for example.</p>
+        <h6><strong>Section title icon in hexagon:</strong></h6>
+        <pre class="brush: html">
+
+            <h1 class="section-title">
+                <span class="icon-inner">
+                    <span class="fa-stack">
+                        <i class="fa rhex fa-stack-2x"></i>
+                        <i class="fa fa-star fa-stack-1x"></i>
+                    </span>
+                </span>
+                <span class="title-inner">Conference or Event Schedule <small>/ dont forget it</small></span>
+            </h1>
+        </pre>
+        <h6><strong>Section title icon in circle:</strong></h6>
+        <pre class="brush: html">
+
+            <h1 class="section-title">
+                <span class="icon-inner">
+                    <span class="fa-stack">
+                        <i class="fa circle fa-stack-2x"></i>
+                        <i class="fa fa-star fa-stack-1x"></i>
+                    </span>
+                </span>
+                <span class="title-inner">Conference or Event Schedule <small>/ dont forget it</small></span>
+            </h1>
+        </pre>
+        <h6><strong>Section title icon without hexagon:</strong></h6>
+        <pre class="brush: html">
+
+            <h1 class="section-title">
+                <span class="icon-inner">
+                    <span class="fa-stack">
+                        <i class="fa wohex fa-stack-2x"></i>
+                        <i class="fa fa-star fa-stack-1x"></i>
+                    </span>
+                </span>
+                <span class="title-inner">Conference or Event Schedule <small>/ dont forget it</small></span>
+            </h1>
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="logo">
+        <h3>Logo</h3>
+        <hr class="notop">
+        <p>Open index.html and find this part of code</p>
+
+        <h4>HTML Markup:</h4>
+        <pre class="brush: html">
+
+         <!-- Logo -->
+        <div class="logo">
+            <a href="#home" class="scroll-to">
+                <span class="fa-stack">
+                    <i class="fa logo-hex fa-stack-2x"></i>
+                    <i class="fa logo-fa fa-map-marker fa-stack-1x"></i>
+                </span>
+                im Event
+            </a>
         </div>
-        <div class="service">
-          <h3>Web Development</h3>
-          <p>Responsive and modern websites tailored to your brand identity.</p>
+        <!-- /Logo -->
+
+         </pre>
+
+        <p>You can change text 'im Event' to your site name or past logo-image</p>
+
+        <h4>Example logo image:</h4>
+
+        <pre class="brush: html">
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#home" class="scroll-to">
+                <img src="assets/img/preview/... path to your image logo ... " alt="">
+            </a>
         </div>
-        <div class="service">
-          <h3>UI/UX Design</h3>
-          <p>Creating seamless experiences for your digital platforms.</p>
-        </div>
-      </div>
-    </div>
-  </section>  <!-- Portfolio -->  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <h2>Our Work</h2>
-      <div class="portfolio-grid">
-        <img src="images/project1.jpg" alt="Project 1">
-        <img src="images/project2.jpg" alt="Project 2">
-        <img src="images/project3.jpg" alt="Project 3">
-      </div>
-    </div>
-  </section>  <!-- About -->  <section id="about" class="about">
-    <div class="container">
-      <h2>Who We Are</h2>
-      <p>We are a team of visionary designers and developers based in Malawi, delivering quality designs with passion and creativity. Every pixel and line of code reflects our dedication.</p>
-    </div>
-  </section>  <!-- Contact -->  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Ready to elevate your brand? Let’s start a project together.</p>
-      <p>Email: <a href="mailto:realvisualgraphix@gmail.com">realvisualgraphix@gmail.com</a></p>
-    </div>
-  </section>  <!-- Footer -->  <footer>
-    <p>&copy; 2025 RealVisual Graphix. All rights reserved.</p>
-  </footer></body>
-  </html>
+        <!-- /Logo -->
+        </pre>
+
+
+    </section>
+
+    <!-- -->
+
+    <section id="sliders">
+        <h3>Sliders</h3>
+        <hr class="notop">
+        <h4>Owl Carousel</h4>
+        <p><strong>Owl Carousel </strong>is the slider you&#39;ll find in the content.</p>
+        <p>It's an easy to use lightweight carousel with some decent features.</p>
+        <p>You can find more documentation here <a href="http://www.owlcarousel.owlgraphic.com/">http://www.owlcarousel.owlgraphic.com/</a></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="main_slider">
+        <h3>Main slider</h3>
+        <hr class="notop">
+        <p><strong>Main slider</strong> has id "<code>main-slider</code>" and each slide divided by html comment '<code>&lt;!-- Slide --></code>' for easy find where slide html code start, also each slide container has css class '<code>slide0, slide1, slide2 ...</code>'</p>
+        <p>To change the text in each slide, you need to find '<code>h2</code>' html tag with class '<code>caption-title</code>' and '<code>h3</code>' tag with class '<code>caption-subtitle</code>' in div with '<code>caption</code>' class</p>
+        <p>If you wont remove some slide just remove div with all content like this '<code>&lt;div class="item page text-center slide1"></code>'</p>
+
+        <pre class="brush: html">
+
+            ...
+
+            <div id="main-slider" class="owl-carousel owl-theme">
+
+                <!-- Slide -->
+                <div class="item page text-center slide0">
+                    <div class="caption">
+
+                        ...
+
+                        <h2 class="caption-title"><span>January 17-19, 2015</span></h2>
+                        <h3 class="caption-subtitle"><i class="fa fa-angle-left"></i> PHP Conference ın Istanbul <i class="fa fa-angle-right"></i></h3>
+
+                        ...
+
+                    </div>
+                </div>
+
+                <!-- Slide -->
+                <div class="item page text-center slide1">
+
+                    ...
+
+                </div>
+
+            ...
+
+            </div>
+
+        </pre>
+        <p>You can find more documentation here <a href="http://www.owlcarousel.owlgraphic.com/">http://www.owlcarousel.owlgraphic.com/</a></p>
+        <p>&nbsp;</p>
+        <p>If you wont change option for main slider you need to open assets/js/theme.js and find 'initMainSlider' function and set true/false for option what you wont to change</p>
+        <p>
+            autoplay: true, - set autoplay for slider<br/>
+            nav: false, - hide navigation arrow<br/>
+            dots: true, - show dots navigation
+        </p>
+        <pre class="brush: js">
+            // Main Slider
+            initMainSlider: function () {
+                $('#main-slider').owlCarousel({
+                    //items: 1,
+                    autoplay: false,
+                    autoplayHoverPause: true,
+                    loop: true,
+                    margin: 0,
+                    dots: false,
+                    nav: true,
+                    navText: [
+                        "<i class='fa fa-caret-left'></i>",
+                        "<i class='fa fa-caret-right'></i>"
+                    ],
+                    responsiveRefreshRate: 100,
+                    responsive: {
+                        0:    {items: 1},
+                        479:  {items: 1},
+                        768:  {items: 1},
+                        991:  {items: 1},
+                        1024: {items: 1}
+                    }
+                });
+
+            }
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="schedule">
+        <h3>Schedule</h3>
+        <hr class="notop">
+        <p>Schedule tabs created with bootstrap tabs and you can find more documentation here <a href="http://getbootstrap.com/javascript/#tabs">http://getbootstrap.com/javascript/#tabs</a></p>
+        <p>Just some notes for easy understanding:</p>
+        <ul>
+            <li><code>&lt;div class="schedule-wrapper clear"></code> - wrap all schedule content</li>
+            <li><code>&lt;div class="schedule-tabs lv1"></code> - lv1 display that tabs first level for days (Day 01, Day 01 .. ) and each tab has id 'tab-first', 'tab-second' ... </li>
+            <li><code>&lt;div class="tab-content lv1"></code> - display content for tabs of first level and each tab-pane has correct id 'tab-first', 'tab-second' as tab switcher </li>
+            <li>same for tabs of second level (lv2) it is HALL A, B, ... - '<code>&lt;div class="schedule-tabs lv2"></code>' ... '<code>&lt;div class="tab-content lv2"></code>'</li>
+            <li>all content in tab (example HALL A) wrapped by '<code>&lt;div class="timeline"></code>' and each schedule by '<code>&lt;article class="post-wrap"></code>'</li>
+        </ul>
+        <h4>Schedule main html structure</h4>
+        <pre c
